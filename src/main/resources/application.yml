@@ -1,0 +1,16 @@
+server:
+    port: 8085
+
+spring:
+    jpa:
+       hibernate:
+            ddl-auto: update
+    h2:
+        console:
+            enabled: true
+            path: /h2
+average:
+    speed:
+        human:
+            read:
+                words: 10
